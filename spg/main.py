@@ -1,6 +1,5 @@
 from PySide6.QtWidgets import QWidget, QApplication, QFileDialog
 import sys
-
 from spg.UI import Ui_ReadWidget
 
 
@@ -20,6 +19,7 @@ class MainWindow(QWidget):
         filenames, _ = QFileDialog.getOpenFileNames(self, "Выбери нужные файлы",
                         "",
                         "Scripts (*.py)"
+                        "SCripts (*.mseed)"
                                                 )
         self.ui.ReadLW.addItems(filenames)
 
