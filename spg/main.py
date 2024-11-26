@@ -18,8 +18,7 @@ class MainWindow(QWidget):
         self.ui.ReadLW.clear()
         filenames, _ = QFileDialog.getOpenFileNames(self, "Выбери нужные файлы",
                         "",
-                        "Scripts (*.py)"
-                        "SCripts (*.mseed)"
+                        "Scripts (*.py)
                                                 )
         self.ui.ReadLW.addItems(filenames)
 
