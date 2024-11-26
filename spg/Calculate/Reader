@@ -1,4 +1,3 @@
-from PySide6.QtWidgets import QWidget, QApplication, QFileDialog
 import sys
 from spg.UI import Ui_ReadWidget
 
